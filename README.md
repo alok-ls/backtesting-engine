@@ -59,7 +59,7 @@ This backtesting engine is designed to evaluate the historical performance of tr
 
 **Use Case**: Exploits value anomalies by investing in undervalued stocks
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 The engine calculates and displays the following metrics for each strategy:
 
@@ -133,19 +133,6 @@ The engine calculates and displays the following metrics for each strategy:
   - Above 50%: Strategy has predictive power
   - Should not be the only metric (large wins can offset low accuracy)
   - Useful for strategy validation and debugging
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/alok-ls/alok_backtesting_engine.git
-   cd alok_backtesting_engine
-   ```
-
-2. **Build the project**
-   ```bash
-   mvn clean compile
-   ```
 
 ### Running the Backtest
 
